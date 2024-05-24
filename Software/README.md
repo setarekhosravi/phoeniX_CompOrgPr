@@ -1,4 +1,4 @@
-Quick Sort & Root Square
+Quick Sort & Integer Square Root
 ====================
 <div align="justify">
 
@@ -61,11 +61,12 @@ Recursion1:
 	```
     jal  ra, QuickSort
 	```
+```
 
 
 </div>
 
-### Quick Sort
+### Integer Square Root
 
 #### explanation of codes
 <div align="justify">
@@ -87,6 +88,7 @@ Lookup the table. Now you got the index of the MSB of 𝑥 (0-based index).
  ```
   jal ra, floor_sqrt
   ```
+```
 
 and here we print the result:
 
@@ -102,4 +104,3 @@ ecall
 
 </div>
 
-github:MahshidHosseinii
