@@ -84,7 +84,10 @@ and here we print the result:
 ```
 
 #### Execution
+![alt text](https://github.com/setarekhosravi/phoeniX_CompOrgPr/blob/main/Software/images/1024.png)
 ![alt text](https://github.com/setarekhosravi/phoeniX_CompOrgPr/blob/main/Software/images/squareroot.png)
+
+**In images directory** there is another output for the ```squareroot``` code.
 
 ## Contributers
 * [Setare Khosravi](https://github.com/setarekhosravi)
