@@ -78,6 +78,6 @@ and here we print the result:
   ecall
 ```
 
-### Contributers
+## Contributers
 * [Setare Khosravi](https://github.com/setarekhosravi)
 * [Mahshid Hosseini](https://github.com/MahshidHosseinii)
