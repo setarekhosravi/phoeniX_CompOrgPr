@@ -32,35 +32,18 @@ In the  two below part `Recursion1` and `Recursion1` we repeat quick sort algori
 
 ```
 Recursion1:
-```
-```
     mv   a0, s0
-	```
-	```
     mv   a1, s1
-	```
-	```
     addi a2, s4, -1
-	```
-	```
     jal  ra, QuickSort
-	```
-	
-	```
-	Recursion2:
-	```
-	```
+```
+
+```
+Recursion2:
     mv   a0, s0
-	```
-	```
     addi a1, s4, 1
-	```
-	```
     mv   a2, s2
-	```
-	```
     jal  ra, QuickSort
-	```
 ```
 
 
@@ -83,24 +66,14 @@ Lookup the table. Now you got the index of the MSB of 𝑥 (0-based index).
  Here is where we call ```floor_sqrt``` function for example number 1024 :
 
 ```
- li  a0, 1024
- ```
- ```
+  li  a0, 1024
   jal ra, floor_sqrt
-  ```
 ```
 
 and here we print the result:
 
 ```
-mv a1, a0             # integer to print
+  mv a1, a0             # integer to print
+  li a0, 1              # print int environment call (1)
+  ecall
 ```
-```
- li a0, 1              # print int environment call (1)
-```
-```
-ecall
-```
-
-</div>
-
