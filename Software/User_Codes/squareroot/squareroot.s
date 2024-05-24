@@ -8,7 +8,7 @@ table:    .word 0, 9, 1, 10, 13, 21, 2, 29, 11, 14, 16, 18, 22, 25, 3, 30, 8, 12
 .text
 main:
         # call floor(squrt(x))
-        li  a0, 1024             
+        li  a0, 64             
         jal ra, floor_sqrt    # call floor_sqrt(x)
         
         # print result
