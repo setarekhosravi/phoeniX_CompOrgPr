@@ -77,3 +77,7 @@ and here we print the result:
   li a0, 1              # print int environment call (1)
   ecall
 ```
+
+### Contributers
+* [Setare Khosravi](https://github.com/setarekhosravi)
+* [Mahshid Hosseini](https://github.com/MahshidHosseinii)
