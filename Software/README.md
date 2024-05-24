@@ -49,6 +49,11 @@ Recursion2:
 
 </div>
 
+#### Execution
+
+![alt text](https://github.com/setarekhosravi/phoeniX_CompOrgPr/blob/main/Software/images/pr_execution.png)
+![alt text](https://github.com/setarekhosravi/phoeniX_CompOrgPr/blob/main/Software/images/quicksort.png)
+
 ### Integer Square Root
 
 #### explanation of codes
@@ -77,6 +82,9 @@ and here we print the result:
   li a0, 1              # print int environment call (1)
   ecall
 ```
+
+#### Execution
+![alt text](https://github.com/setarekhosravi/phoeniX_CompOrgPr/blob/main/Software/images/squareroot.png)
 
 ## Contributers
 * [Setare Khosravi](https://github.com/setarekhosravi)
